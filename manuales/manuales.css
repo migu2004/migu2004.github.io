@@ -1,0 +1,104 @@
+/* Estilos generales para el cuerpo del manual */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal del contenido del manual */
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Encabezado del manual */
+header {
+    background-color: #005A9C; /* Un azul corporativo */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 5px solid #003B65;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+/* Estilos para cada sección o paso del manual */
+section {
+    margin-bottom: 2.5rem; /* Aumenta el espacio entre pasos */
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+section:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #005A9C;
+    margin-top: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e9ecef;
+}
+
+/* Estilos para las imágenes dentro de los manuales */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    margin-top: 1rem;
+    display: block;
+}
+
+/* Estilos para bloques de código (muy útil para manuales) */
+pre {
+    background-color: #282c34; /* Fondo oscuro para código */
+    color: #abb2bf;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto; /* Permite scroll horizontal si el código es muy largo */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+}
+
+code {
+    font-family: inherit;
+}
+
+/* Estilo para el botón o enlace de "Volver" */
+.enlace-volver {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.enlace-volver:hover {
+    background-color: #5a6268;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #343a40;
+    color: #f8f9fa;
+}
